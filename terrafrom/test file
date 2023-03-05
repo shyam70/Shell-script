@@ -1,0 +1,9 @@
+resource "aws_instance" "ec2"
+{
+ami = "i-0be1d07de69a27104"
+instance type = 't3.micro'
+vpc_security_group_ids = []
+tag = {
+name = "[test]"
+}
+}
