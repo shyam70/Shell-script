@@ -7,3 +7,6 @@ tag = {
 name = "[test]"
 }
 }
+
+git clone https://github.com/raghudevopsb71/learn-terraform.git
+
